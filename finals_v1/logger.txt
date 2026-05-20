@@ -1,0 +1,949 @@
+Epoch 1 training completed. Average loss: 7.3965
+Validation: 100%
+ 190/190 [00:28<00:00,  2.28it/s, val_loss=6.2145]
+<ipython-input-2-ce521ad1932b>:357: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(enabled=mixed_precision):
+Validation completed. Average validation loss: 6.2145
+Training Epoch 2/15: 100%
+ 885/885 [06:34<00:00,  2.43it/s, loss=6.1540, lr=3.33e-05]
+Epoch 2 training completed. Average loss: 6.1540
+Validation: 100%
+ 190/190 [00:27<00:00,  7.84it/s, val_loss=5.6502]
+Validation completed. Average validation loss: 5.6502
+Training Epoch 3/15: 100%
+ 885/885 [06:34<00:00,  2.43it/s, loss=5.7975, lr=5.00e-05]
+Epoch 3 training completed. Average loss: 5.7975
+Validation: 100%
+ 190/190 [00:27<00:00,  7.92it/s, val_loss=5.4658]
+Validation completed. Average validation loss: 5.4658
+Training Epoch 4/15: 100%
+ 885/885 [06:34<00:00,  2.43it/s, loss=5.6004, lr=6.66e-05]
+Epoch 4 training completed. Average loss: 5.6004
+Validation: 100%
+ 190/190 [00:27<00:00,  7.90it/s, val_loss=5.3382]
+Validation completed. Average validation loss: 5.3382
+Training Epoch 5/15: 100%
+ 885/885 [06:34<00:00,  2.43it/s, loss=5.4025, lr=8.33e-05]
+Epoch 5 training completed. Average loss: 5.4025
+Validation: 100%
+ 190/190 [00:27<00:00,  7.90it/s, val_loss=5.1346]
+Validation completed. Average validation loss: 5.1346
+Training Epoch 6/15: 100%
+ 885/885 [06:34<00:00,  2.43it/s, loss=5.1356, lr=9.99e-05]
+Epoch 6 training completed. Average loss: 5.1356
+Validation: 100%
+ 190/190 [00:27<00:00,  7.92it/s, val_loss=4.8571]
+Validation completed. Average validation loss: 4.8571
+Training Epoch 7/15: 100%
+ 885/885 [06:34<00:00,  2.42it/s, loss=4.7638, lr=9.99e-05]
+Epoch 7 training completed. Average loss: 4.7638
+Validation: 100%
+ 190/190 [00:27<00:00,  7.92it/s, val_loss=4.4748]
+Validation completed. Average validation loss: 4.4748
+Training Epoch 8/15: 100%
+ 885/885 [06:34<00:00,  2.43it/s, loss=4.4059, lr=9.97e-05]
+Epoch 8 training completed. Average loss: 4.4059
+Validation: 100%
+ 190/190 [00:27<00:00,  7.91it/s, val_loss=4.1704]
+Validation completed. Average validation loss: 4.1704
+Training Epoch 9/15: 100%
+ 885/885 [06:34<00:00,  2.44it/s, loss=4.0989, lr=9.92e-05]
+Epoch 9 training completed. Average loss: 4.0989
+Validation: 100%
+ 190/190 [00:27<00:00,  7.91it/s, val_loss=3.9292]
+Validation completed. Average validation loss: 3.9292
+Training Epoch 10/15: 100%
+ 885/885 [06:33<00:00,  2.44it/s, loss=3.8473, lr=9.87e-05]
+Epoch 10 training completed. Average loss: 3.8473
+Validation: 100%
+ 190/190 [00:27<00:00,  7.96it/s, val_loss=3.7665]
+Validation completed. Average validation loss: 3.7665
+Training Epoch 11/15: 100%
+ 885/885 [06:33<00:00,  2.45it/s, loss=3.7146, lr=9.79e-05]
+Epoch 11 training completed. Average loss: 3.7146
+Validation: 100%
+ 190/190 [00:27<00:00,  7.95it/s, val_loss=3.6720]
+Validation completed. Average validation loss: 3.6720
+Training Epoch 12/15: 100%
+ 885/885 [06:33<00:00,  2.44it/s, loss=3.6032, lr=9.70e-05]
+Epoch 12 training completed. Average loss: 3.6032
+Validation: 100%
+ 190/190 [00:27<00:00,  7.95it/s, val_loss=3.5898]
+Validation completed. Average validation loss: 3.5898
+New best model saved with validation loss: 3.5898
+Training Epoch 13/15: 100%
+ 885/885 [06:33<00:00,  2.44it/s, loss=3.5082, lr=9.59e-05]
+Epoch 13 training completed. Average loss: 3.5082
+Validation: 100%
+ 190/190 [00:27<00:00,  7.96it/s, val_loss=3.5235]
+Validation completed. Average validation loss: 3.5235
+Training Epoch 14/15: 100%
+ 885/885 [06:33<00:00,  2.44it/s, loss=3.4185, lr=9.47e-05]
+Epoch 14 training completed. Average loss: 3.4185
+Validation: 100%
+ 190/190 [00:27<00:00,  7.95it/s, val_loss=3.4652]
+Validation completed. Average validation loss: 3.4652
+Training Epoch 15/15: 100%
+ 885/885 [06:33<00:00,  2.45it/s, loss=3.3368, lr=9.33e-05]
+Epoch 15 training completed. Average loss: 3.3368
+Validation: 100%
+ 190/190 [00:27<00:00,  7.96it/s, val_loss=3.4224]
+Validation completed. Average validation loss: 3.4224
+Starting final evaluation...
+Starting evaluation...
+Generating captions: 100%
+ 6069/6069 [01:18<00:00, 87.99it/s]
+
+Intermediate metrics for batch 49:
+bleu-1: 0.3097
+bleu-2: 0.2060
+bleu-3: 0.1276
+bleu-4: 0.0778
+rouge-l: 0.0000
+
+Intermediate metrics for batch 99:
+bleu-1: 0.3114
+bleu-2: 0.2088
+bleu-3: 0.1364
+bleu-4: 0.0920
+rouge-l: 0.0000
+
+Intermediate metrics for batch 149:
+bleu-1: 0.2962
+bleu-2: 0.1985
+bleu-3: 0.1301
+bleu-4: 0.0872
+rouge-l: 0.0000
+
+Intermediate metrics for batch 199:
+bleu-1: 0.3230
+bleu-2: 0.2058
+bleu-3: 0.1278
+bleu-4: 0.0770
+rouge-l: 0.0000
+
+Intermediate metrics for batch 249:
+bleu-1: 0.3149
+bleu-2: 0.2073
+bleu-3: 0.1268
+bleu-4: 0.0771
+rouge-l: 0.0000
+
+Intermediate metrics for batch 299:
+bleu-1: 0.3092
+bleu-2: 0.2028
+bleu-3: 0.1265
+bleu-4: 0.0810
+rouge-l: 0.0000
+
+Intermediate metrics for batch 349:
+bleu-1: 0.2983
+bleu-2: 0.2043
+bleu-3: 0.1312
+bleu-4: 0.0808
+rouge-l: 0.0000
+
+Intermediate metrics for batch 399:
+bleu-1: 0.2720
+bleu-2: 0.1903
+bleu-3: 0.1311
+bleu-4: 0.0918
+rouge-l: 0.0000
+
+Intermediate metrics for batch 449:
+bleu-1: 0.2817
+bleu-2: 0.1974
+bleu-3: 0.1320
+bleu-4: 0.0858
+rouge-l: 0.0000
+
+Intermediate metrics for batch 499:
+bleu-1: 0.2941
+bleu-2: 0.2034
+bleu-3: 0.1418
+bleu-4: 0.1030
+rouge-l: 0.0000
+
+Intermediate metrics for batch 549:
+bleu-1: 0.2474
+bleu-2: 0.1621
+bleu-3: 0.1012
+bleu-4: 0.0651
+rouge-l: 0.0000
+
+Intermediate metrics for batch 599:
+bleu-1: 0.2852
+bleu-2: 0.1951
+bleu-3: 0.1241
+bleu-4: 0.0764
+rouge-l: 0.0000
+
+Intermediate metrics for batch 649:
+bleu-1: 0.2782
+bleu-2: 0.1808
+bleu-3: 0.1094
+bleu-4: 0.0656
+rouge-l: 0.0000
+
+Intermediate metrics for batch 699:
+bleu-1: 0.3904
+bleu-2: 0.2628
+bleu-3: 0.1664
+bleu-4: 0.1017
+rouge-l: 0.0000
+
+Intermediate metrics for batch 749:
+bleu-1: 0.2364
+bleu-2: 0.1579
+bleu-3: 0.1001
+bleu-4: 0.0647
+rouge-l: 0.0000
+
+Intermediate metrics for batch 799:
+bleu-1: 0.2287
+bleu-2: 0.1518
+bleu-3: 0.0956
+bleu-4: 0.0581
+rouge-l: 0.0000
+
+Intermediate metrics for batch 849:
+bleu-1: 0.3153
+bleu-2: 0.2161
+bleu-3: 0.1385
+bleu-4: 0.0869
+rouge-l: 0.0000
+
+Intermediate metrics for batch 899:
+bleu-1: 0.3145
+bleu-2: 0.2117
+bleu-3: 0.1343
+bleu-4: 0.0817
+rouge-l: 0.0000
+
+Intermediate metrics for batch 949:
+bleu-1: 0.3028
+bleu-2: 0.2130
+bleu-3: 0.1437
+bleu-4: 0.0976
+rouge-l: 0.0000
+
+Intermediate metrics for batch 999:
+bleu-1: 0.3188
+bleu-2: 0.2174
+bleu-3: 0.1414
+bleu-4: 0.0905
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1049:
+bleu-1: 0.2830
+bleu-2: 0.1870
+bleu-3: 0.1159
+bleu-4: 0.0700
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1099:
+bleu-1: 0.3032
+bleu-2: 0.2094
+bleu-3: 0.1359
+bleu-4: 0.0842
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1149:
+bleu-1: 0.3233
+bleu-2: 0.2187
+bleu-3: 0.1354
+bleu-4: 0.0824
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1199:
+bleu-1: 0.2058
+bleu-2: 0.1366
+bleu-3: 0.0845
+bleu-4: 0.0511
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1249:
+bleu-1: 0.2513
+bleu-2: 0.1615
+bleu-3: 0.0991
+bleu-4: 0.0598
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1299:
+bleu-1: 0.3087
+bleu-2: 0.2059
+bleu-3: 0.1332
+bleu-4: 0.0813
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1349:
+bleu-1: 0.4030
+bleu-2: 0.2711
+bleu-3: 0.1743
+bleu-4: 0.1061
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1399:
+bleu-1: 0.2506
+bleu-2: 0.1654
+bleu-3: 0.1059
+bleu-4: 0.0668
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1449:
+bleu-1: 0.2793
+bleu-2: 0.1879
+bleu-3: 0.1187
+bleu-4: 0.0728
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1499:
+bleu-1: 0.3681
+bleu-2: 0.2444
+bleu-3: 0.1592
+bleu-4: 0.1035
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1549:
+bleu-1: 0.2813
+bleu-2: 0.1866
+bleu-3: 0.1191
+bleu-4: 0.0750
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1599:
+bleu-1: 0.3200
+bleu-2: 0.2140
+bleu-3: 0.1356
+bleu-4: 0.0823
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1649:
+bleu-1: 0.3873
+bleu-2: 0.2660
+bleu-3: 0.1779
+bleu-4: 0.1181
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1699:
+bleu-1: 0.3525
+bleu-2: 0.2340
+bleu-3: 0.1493
+bleu-4: 0.0915
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1749:
+bleu-1: 0.3176
+bleu-2: 0.2025
+bleu-3: 0.1248
+bleu-4: 0.0781
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1799:
+bleu-1: 0.2629
+bleu-2: 0.1772
+bleu-3: 0.1170
+bleu-4: 0.0760
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1849:
+bleu-1: 0.3492
+bleu-2: 0.2314
+bleu-3: 0.1457
+bleu-4: 0.0892
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1899:
+bleu-1: 0.2280
+bleu-2: 0.1604
+bleu-3: 0.1129
+bleu-4: 0.0816
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1949:
+bleu-1: 0.2897
+bleu-2: 0.1940
+bleu-3: 0.1277
+bleu-4: 0.0846
+rouge-l: 0.0000
+
+Intermediate metrics for batch 1999:
+bleu-1: 0.2773
+bleu-2: 0.1851
+bleu-3: 0.1206
+bleu-4: 0.0809
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2049:
+bleu-1: 0.2260
+bleu-2: 0.1521
+bleu-3: 0.0973
+bleu-4: 0.0614
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2099:
+bleu-1: 0.3208
+bleu-2: 0.2135
+bleu-3: 0.1377
+bleu-4: 0.0924
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2149:
+bleu-1: 0.2627
+bleu-2: 0.1882
+bleu-3: 0.1334
+bleu-4: 0.0972
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2199:
+bleu-1: 0.2241
+bleu-2: 0.1500
+bleu-3: 0.0946
+bleu-4: 0.0575
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2249:
+bleu-1: 0.2717
+bleu-2: 0.1894
+bleu-3: 0.1268
+bleu-4: 0.0828
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2299:
+bleu-1: 0.3526
+bleu-2: 0.2331
+bleu-3: 0.1521
+bleu-4: 0.0980
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2349:
+bleu-1: 0.3688
+bleu-2: 0.2597
+bleu-3: 0.1746
+bleu-4: 0.1145
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2399:
+bleu-1: 0.2996
+bleu-2: 0.1975
+bleu-3: 0.1272
+bleu-4: 0.0821
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2449:
+bleu-1: 0.2504
+bleu-2: 0.1651
+bleu-3: 0.1016
+bleu-4: 0.0614
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2499:
+bleu-1: 0.2728
+bleu-2: 0.1872
+bleu-3: 0.1215
+bleu-4: 0.0745
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2549:
+bleu-1: 0.3230
+bleu-2: 0.2316
+bleu-3: 0.1642
+bleu-4: 0.1135
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2599:
+bleu-1: 0.3182
+bleu-2: 0.2177
+bleu-3: 0.1385
+bleu-4: 0.0844
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2649:
+bleu-1: 0.2687
+bleu-2: 0.1746
+bleu-3: 0.1057
+bleu-4: 0.0634
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2699:
+bleu-1: 0.3119
+bleu-2: 0.2184
+bleu-3: 0.1478
+bleu-4: 0.0989
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2749:
+bleu-1: 0.3478
+bleu-2: 0.2296
+bleu-3: 0.1505
+bleu-4: 0.1002
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2799:
+bleu-1: 0.2302
+bleu-2: 0.1590
+bleu-3: 0.1004
+bleu-4: 0.0611
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2849:
+bleu-1: 0.2959
+bleu-2: 0.2026
+bleu-3: 0.1308
+bleu-4: 0.0827
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2899:
+bleu-1: 0.2752
+bleu-2: 0.1880
+bleu-3: 0.1216
+bleu-4: 0.0752
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2949:
+bleu-1: 0.2993
+bleu-2: 0.1982
+bleu-3: 0.1252
+bleu-4: 0.0759
+rouge-l: 0.0000
+
+Intermediate metrics for batch 2999:
+bleu-1: 0.2560
+bleu-2: 0.1712
+bleu-3: 0.1074
+bleu-4: 0.0658
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3049:
+bleu-1: 0.3393
+bleu-2: 0.2231
+bleu-3: 0.1407
+bleu-4: 0.0863
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3099:
+bleu-1: 0.3673
+bleu-2: 0.2494
+bleu-3: 0.1620
+bleu-4: 0.1018
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3149:
+bleu-1: 0.3197
+bleu-2: 0.2159
+bleu-3: 0.1392
+bleu-4: 0.0878
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3199:
+bleu-1: 0.2972
+bleu-2: 0.1996
+bleu-3: 0.1316
+bleu-4: 0.0872
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3249:
+bleu-1: 0.2603
+bleu-2: 0.1786
+bleu-3: 0.1218
+bleu-4: 0.0856
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3299:
+bleu-1: 0.2190
+bleu-2: 0.1443
+bleu-3: 0.0920
+bleu-4: 0.0569
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3349:
+bleu-1: 0.2489
+bleu-2: 0.1704
+bleu-3: 0.1135
+bleu-4: 0.0765
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3399:
+bleu-1: 0.3482
+bleu-2: 0.2367
+bleu-3: 0.1513
+bleu-4: 0.0948
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3449:
+bleu-1: 0.3291
+bleu-2: 0.2145
+bleu-3: 0.1332
+bleu-4: 0.0803
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3499:
+bleu-1: 0.3211
+bleu-2: 0.2142
+bleu-3: 0.1370
+bleu-4: 0.0864
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3549:
+bleu-1: 0.2622
+bleu-2: 0.1772
+bleu-3: 0.1199
+bleu-4: 0.0853
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3599:
+bleu-1: 0.3566
+bleu-2: 0.2444
+bleu-3: 0.1592
+bleu-4: 0.1003
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3649:
+bleu-1: 0.2319
+bleu-2: 0.1529
+bleu-3: 0.0986
+bleu-4: 0.0611
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3699:
+bleu-1: 0.2916
+bleu-2: 0.1953
+bleu-3: 0.1283
+bleu-4: 0.0847
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3749:
+bleu-1: 0.3404
+bleu-2: 0.2313
+bleu-3: 0.1510
+bleu-4: 0.0990
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3799:
+bleu-1: 0.3267
+bleu-2: 0.2266
+bleu-3: 0.1504
+bleu-4: 0.1011
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3849:
+bleu-1: 0.2206
+bleu-2: 0.1503
+bleu-3: 0.0995
+bleu-4: 0.0676
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3899:
+bleu-1: 0.3214
+bleu-2: 0.2159
+bleu-3: 0.1396
+bleu-4: 0.0860
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3949:
+bleu-1: 0.3400
+bleu-2: 0.2158
+bleu-3: 0.1336
+bleu-4: 0.0832
+rouge-l: 0.0000
+
+Intermediate metrics for batch 3999:
+bleu-1: 0.3551
+bleu-2: 0.2486
+bleu-3: 0.1732
+bleu-4: 0.1214
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4049:
+bleu-1: 0.2807
+bleu-2: 0.1935
+bleu-3: 0.1263
+bleu-4: 0.0818
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4099:
+bleu-1: 0.2963
+bleu-2: 0.1956
+bleu-3: 0.1243
+bleu-4: 0.0767
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4149:
+bleu-1: 0.2674
+bleu-2: 0.1789
+bleu-3: 0.1146
+bleu-4: 0.0724
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4199:
+bleu-1: 0.2552
+bleu-2: 0.1675
+bleu-3: 0.1029
+bleu-4: 0.0621
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4249:
+bleu-1: 0.3092
+bleu-2: 0.2157
+bleu-3: 0.1475
+bleu-4: 0.0977
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4299:
+bleu-1: 0.2520
+bleu-2: 0.1641
+bleu-3: 0.1007
+bleu-4: 0.0616
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4349:
+bleu-1: 0.2718
+bleu-2: 0.1789
+bleu-3: 0.1165
+bleu-4: 0.0760
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4399:
+bleu-1: 0.2526
+bleu-2: 0.1666
+bleu-3: 0.1058
+bleu-4: 0.0668
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4449:
+bleu-1: 0.2771
+bleu-2: 0.1830
+bleu-3: 0.1133
+bleu-4: 0.0683
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4499:
+bleu-1: 0.2174
+bleu-2: 0.1459
+bleu-3: 0.0942
+bleu-4: 0.0584
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4549:
+bleu-1: 0.2668
+bleu-2: 0.1788
+bleu-3: 0.1145
+bleu-4: 0.0706
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4599:
+bleu-1: 0.3627
+bleu-2: 0.2414
+bleu-3: 0.1525
+bleu-4: 0.0935
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4649:
+bleu-1: 0.3175
+bleu-2: 0.2094
+bleu-3: 0.1323
+bleu-4: 0.0812
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4699:
+bleu-1: 0.2776
+bleu-2: 0.1905
+bleu-3: 0.1281
+bleu-4: 0.0836
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4749:
+bleu-1: 0.3160
+bleu-2: 0.2107
+bleu-3: 0.1303
+bleu-4: 0.0794
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4799:
+bleu-1: 0.2427
+bleu-2: 0.1628
+bleu-3: 0.1036
+bleu-4: 0.0640
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4849:
+bleu-1: 0.3719
+bleu-2: 0.2415
+bleu-3: 0.1514
+bleu-4: 0.0925
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4899:
+bleu-1: 0.3257
+bleu-2: 0.2140
+bleu-3: 0.1359
+bleu-4: 0.0847
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4949:
+bleu-1: 0.2667
+bleu-2: 0.1757
+bleu-3: 0.1115
+bleu-4: 0.0722
+rouge-l: 0.0000
+
+Intermediate metrics for batch 4999:
+bleu-1: 0.3157
+bleu-2: 0.2107
+bleu-3: 0.1321
+bleu-4: 0.0830
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5049:
+bleu-1: 0.1850
+bleu-2: 0.1211
+bleu-3: 0.0780
+bleu-4: 0.0522
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5099:
+bleu-1: 0.2877
+bleu-2: 0.1928
+bleu-3: 0.1257
+bleu-4: 0.0779
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5149:
+bleu-1: 0.2702
+bleu-2: 0.1747
+bleu-3: 0.1070
+bleu-4: 0.0644
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5199:
+bleu-1: 0.2768
+bleu-2: 0.1849
+bleu-3: 0.1166
+bleu-4: 0.0708
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5249:
+bleu-1: 0.2667
+bleu-2: 0.1767
+bleu-3: 0.1106
+bleu-4: 0.0677
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5299:
+bleu-1: 0.2643
+bleu-2: 0.1757
+bleu-3: 0.1099
+bleu-4: 0.0667
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5349:
+bleu-1: 0.3810
+bleu-2: 0.2560
+bleu-3: 0.1615
+bleu-4: 0.0985
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5399:
+bleu-1: 0.2726
+bleu-2: 0.1809
+bleu-3: 0.1186
+bleu-4: 0.0805
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5449:
+bleu-1: 0.3393
+bleu-2: 0.2286
+bleu-3: 0.1413
+bleu-4: 0.0851
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5499:
+bleu-1: 0.3146
+bleu-2: 0.2281
+bleu-3: 0.1542
+bleu-4: 0.1016
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5549:
+bleu-1: 0.2749
+bleu-2: 0.1820
+bleu-3: 0.1137
+bleu-4: 0.0696
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5599:
+bleu-1: 0.3103
+bleu-2: 0.2078
+bleu-3: 0.1350
+bleu-4: 0.0834
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5649:
+bleu-1: 0.3160
+bleu-2: 0.2052
+bleu-3: 0.1307
+bleu-4: 0.0862
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5699:
+bleu-1: 0.2208
+bleu-2: 0.1544
+bleu-3: 0.1058
+bleu-4: 0.0682
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5749:
+bleu-1: 0.3359
+bleu-2: 0.2306
+bleu-3: 0.1555
+bleu-4: 0.1007
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5799:
+bleu-1: 0.3794
+bleu-2: 0.2601
+bleu-3: 0.1671
+bleu-4: 0.1026
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5849:
+bleu-1: 0.2880
+bleu-2: 0.1970
+bleu-3: 0.1302
+bleu-4: 0.0843
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5899:
+bleu-1: 0.2803
+bleu-2: 0.1946
+bleu-3: 0.1350
+bleu-4: 0.0985
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5949:
+bleu-1: 0.3335
+bleu-2: 0.2338
+bleu-3: 0.1571
+bleu-4: 0.0999
+rouge-l: 0.0000
+
+Intermediate metrics for batch 5999:
+bleu-1: 0.2712
+bleu-2: 0.1891
+bleu-3: 0.1275
+bleu-4: 0.0857
+rouge-l: 0.0000
+
+Intermediate metrics for batch 6049:
+bleu-1: 0.3444
+bleu-2: 0.2258
+bleu-3: 0.1435
+bleu-4: 0.0901
+rouge-l: 0.0000
+
+Final Evaluation Results:
+bleu-1: 0.3028
+bleu-2: 0.2061
+bleu-3: 0.1352
+bleu-4: 0.0865
+rouge-l: 0.0000
